@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help
+you see the bug that was introduced?
+	diff makes it is relatively easy to see what has changed in a
+	file and where the change occurs.  Since deltas are singled
+	out and presented in close proximiy, the comparison
+	space is minimized and subsequent bug detection is more 
+	efficient.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+	Easy access to different versions of a file can allow me to 
+	revert back to a previous instance when a change is detrimental.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+	A key pro of a manual approach is that it allows a more intelligent commit
+	strategy that takes the nature and impact of changes into account.
+	A key con of a manual approach is that it relies on the user to remember
+	to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+in one commit, while others, like Google Docs, treat each file separately?
+	There is diversity in version control systems because there is diversity
+	in the use of those systems.  Presumably, in most cases, version control 
+	systems are designed with a particular audience in mind.  During design,
+	again presumably, decisions, like the commit policy, are resolved based
+	on an idea of who the audience is and what their expecations\needs are.
+
+How can you use the commands git log and git diff to view the history of files?
+	git log allows a review of timedate stamps and the change 
+	implemented (as reported upon commit).  git diff allows the comparison
+	of two individual files for a review of what was added or deleted between
+	the commits represented.
+
+How might using version control make you more confident to make changes that could
+break something?
+	I would be more comfortable making changes knowing that a working version
+	was retained and easily accessible.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	I'm so drained by the setup process, I don't have an answer at the moment.
